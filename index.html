@@ -35,13 +35,22 @@
       <h1>trabalho do 1 B</h1>
       <p>Aprenda a produir um site meu</p>
     </header>
-<main>
+ <main>
     <img src="9bb14d54-eff1-4aa8-bff5-7cb8bc76d421.jpeg" alt="imagem da aula">
     <div>
         <h2>Exercício de aula do 1 B</h2>
+        <p class="autor">por: Joao pedro</p>
         <p>Este site é um exercício da aula de educação digital</p>
-        <p>n sei</p>
+        <button>❤️<spam>0</spam></button>
     </div>
-</main>
+ </main>
 </body>
+<script>
+    const botao = document.querySelector ("button");
+    botao.addEventListener ("click", botaoClicado)
+    function botaoClicado () {
+        let texto = botao.q.querySelector ("spam");
+        texto.textContent++;
+    }
+</script>
 </html>
